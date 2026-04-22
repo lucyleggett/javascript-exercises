@@ -1,4 +1,5 @@
 const repeatString = function(str, num) {
+    if (times < 0) return "ERROR";
     let repeated = "";
     while (num > 0) {
         num--;
